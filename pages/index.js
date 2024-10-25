@@ -160,7 +160,7 @@ export default function Home() {
               </li>
               <li className="rounded-[1.25rem] md:bg-gradient-to-b md:from-[#FF4E83] md:to-[#FFBB54] md:p-0.5">
                 <div className="flex flex-col h-full w-full rounded-[1.25rem] md:py-20 items-center md:bg-[#141414]">
-                  <h1 className="md:text-[2.75rem] text-[1.375rem] font-bold bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] text-transparent relative after:content-['TM'] after:absolute after:bg-clip-text after:bg-gradient-to-r after:font-bold after:from-[#FF4E83] after:to-[#FFBB54] after:text-transparent after:text-lg after:right-[-24px] after:top-2.5">Ploonet Quickserve</h1>
+                  <h1 className="md:text-[2.75rem] text-[1.375rem] font-bold bg-clip-text bg-gradient-to-r from-[#FF4E83] to-[#FFBB54] text-transparent relative after:content-['TM'] after:absolute after:bg-clip-text after:bg-gradient-to-r after:font-bold after:from-[#FF4E83] after:to-[#FFBB54] after:text-transparent after:text-sm md:after:text-lg md:after:right-[-24px] md:after:top-2.5">Ploonet Quickserve</h1>
                   <span className="md:text-2xl text-base">제작 시작 후 12~48시간 이내</span>
                   <ol className="md:mt-12 mt-8 w-full flex flex-col gap-6 rounded-[1.25rem] md:bg-none bg-gradient-to-b from-[#FF4E83] to-[#FFBB54] p-0.5">
                     <div className="h-full w-full rounded-[1.25rem] bg-[#141414] px-7 xl:px-20 lg:px-32 md:px-20 py-11">
