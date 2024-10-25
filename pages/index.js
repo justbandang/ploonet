@@ -104,7 +104,7 @@ export default function Home() {
           <h1 className="md:text-5xl font-bold text-xl relative after:content-[''] after:rounded-full after:absolute after:left-[-10px] after:top-[-2px] after:md:left-[-22px] after:md:top-[-12px] after:w-2 after:h-2 after:md:w-4 after:md:h-4 after:bg-gradient-to-r after:from-[#FF4E83] after:to-[#FFBB54]">PREVIOUS WORKS</h1>
           <Works/>
         </div>
-        <div className="px-5 py-12 lg:p-10 2xl:p-16 flex flex-col items-center justify-center">
+        <div className="px-5 py-12 lg:p-10 2xl:px-[11rem] 2xl:py-20 flex flex-col items-center justify-center">
           <h1 className="md:text-5xl font-bold text-xl relative after:content-[''] after:rounded-full after:absolute after:left-[-10px] after:top-[-2px] after:md:left-[-22px] after:md:top-[-12px] after:w-2 after:h-2 after:md:w-4 after:md:h-4 after:bg-gradient-to-r after:from-[#FF4E83] after:to-[#FFBB54]">MAKING PROCESS</h1>
           <ul className="grid xl:grid-cols-2 grid-cols-1 gap-12 md:mt-14 mt-8 w-full">
               <li className="md:bg-[#141414] bg-transparent border-white border-0 md:border rounded-[1.25rem] md:p-20 text-center">

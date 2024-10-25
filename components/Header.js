@@ -70,7 +70,7 @@ const Header = () => {
                     </div>
 
                     <div className={`w-full md:flex md:w-auto md:order-1 transition-all duration-500 ease-in-out ${isMobileMenuOpen ? 'max-h-screen' : 'max-h-0 overflow-hidden'} md:max-h-full md:overflow-visible`} id="mobile-menu-2">
-                      <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-6 xl:space-x-24 md:mt-0">
+                      <ul className="flex flex-col mt-4 font-medium md:flex-row md:space-x-6 xl:space-x-16 md:mt-0">
                           <li>
                               <a href="#" className="block py-2 pr-4 pl-3 md:text-sm text-base text-white bg-primary-700 border-b border-gray-100 md:bg-transparent md:text-primary-700 md:p-0 dark:text-white relative md:after:content-[url(/Ellipse_770.svg)] md:after:absolute md:after:bottom-[-1.2rem] md:after:left-1/2 md:after:-translate-x-1/2 dark:border-gray-700" aria-current="page">스튜디오</a>
                           </li>
