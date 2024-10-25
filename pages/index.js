@@ -104,55 +104,55 @@ export default function Home() {
           <h1 className="md:text-5xl font-bold text-xl relative after:content-[''] after:rounded-full after:absolute after:left-[-10px] after:top-[-2px] after:md:left-[-22px] after:md:top-[-12px] after:w-2 after:h-2 after:md:w-4 after:md:h-4 after:bg-gradient-to-r after:from-[#FF4E83] after:to-[#FFBB54]">PREVIOUS WORKS</h1>
           <Works/>
         </div>
-        <div className="px-5 py-12 lg:p-10 2xl:p-44 flex flex-col items-center justify-center">
+        <div className="px-5 py-12 lg:p-10 2xl:p-16 flex flex-col items-center justify-center">
           <h1 className="md:text-5xl font-bold text-xl relative after:content-[''] after:rounded-full after:absolute after:left-[-10px] after:top-[-2px] after:md:left-[-22px] after:md:top-[-12px] after:w-2 after:h-2 after:md:w-4 after:md:h-4 after:bg-gradient-to-r after:from-[#FF4E83] after:to-[#FFBB54]">MAKING PROCESS</h1>
           <ul className="grid xl:grid-cols-2 grid-cols-1 gap-12 md:mt-14 mt-8 w-full">
               <li className="md:bg-[#141414] bg-transparent border-white border-0 md:border rounded-[1.25rem] md:p-20 text-center">
                   <h1 className="md:text-[2.75rem] text-[1.375rem] font-bold">일반 제작</h1>
                   <span className="md:text-2xl text-base">제작 시작 후 5영업일 이내</span>
                   <ol className="md:mt-12 mt-8 flex flex-col gap-6">
-                    <li className="flex bg-[#141414] items-center 2xl:gap-16 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
+                    <li className="flex bg-[#141414] items-center justify-center 2xl:gap-8 xl:gap-6 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
                         <div className="flex flex-col items-start">
                             <span className="md:text-base text-xs bg-clip-text bg-gradient-to-r from-[#FF7E7E] to-[#F05F82] text-transparent">STEP1</span>
-                            <span className="md:text-xl text-lg font-bold">사전 논의</span>
+                            <span className="md:text-xl xl:text-base 2xl:text-xl text-base font-bold">사전 논의</span>
                         </div>
-                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left md:w-72 w-52">
+                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left xl:w-[14rem] md:w-72 w-52">
                           영상 제작 문의를 통해 의뢰 확인 후 상담을 통해 방향 설정 및 내용 협의
                         </div>
                     </li>
-                    <li className="flex bg-[#141414] items-center 2xl:gap-16 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
+                    <li className="flex bg-[#141414] items-center justify-center 2xl:gap-8 xl:gap-6 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
                         <div className="flex flex-col items-start">
                             <span className="md:text-base text-xs bg-clip-text bg-gradient-to-r from-[#FF7E7E] to-[#F05F82] text-transparent">STEP2</span>
-                            <span className="md:text-xl text-lg font-bold">영상 기획</span>
+                            <span className="md:text-xl xl:text-base 2xl:text-xl text-base font-bold">영상 기획</span>
                         </div>
-                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left md:w-72 w-52">
+                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left xl:w-[14rem] md:w-72 w-52">
                         스토리보드 전달&수정을 통한 기획안 확정 가상인간 발화용 스크립트 작성과 프롬프팅
                         </div>
                     </li>
-                    <li className="flex bg-[#141414] items-center 2xl:gap-16 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
+                    <li className="flex bg-[#141414] items-center justify-center 2xl:gap-8 xl:gap-6 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
                         <div className="flex flex-col items-start">
                             <span className="md:text-base text-xs bg-clip-text bg-gradient-to-r from-[#FF7E7E] to-[#F05F82] text-transparent">STEP3</span>
-                            <span className="md:text-xl text-lg font-bold">영상 생성</span>
+                            <span className="md:text-xl xl:text-base 2xl:text-xl text-base font-bold">영상 생성</span>
                         </div>
-                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left md:w-72 w-52">
+                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left xl:w-[14rem] md:w-72 w-52">
                         작성한 스크립트로 가상인간 영상 생성 그외 이미지, 배경 음악 등 필요 요소 생성
                         </div>
                     </li>
-                    <li className="flex bg-[#141414] items-center 2xl:gap-16 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
+                    <li className="flex bg-[#141414] items-center justify-center 2xl:gap-8 xl:gap-6 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5 relative after:content-[url(/arrow_down_bold.svg)] after:absolute after:bottom-[-17px] after:left-1/2 after:-translate-x-1/2">
                         <div className="flex flex-col items-start">
                             <span className="md:text-base text-xs bg-clip-text bg-gradient-to-r from-[#FF7E7E] to-[#F05F82] text-transparent">STEP4</span>
-                            <span className="md:text-xl text-lg font-bold">영상 편집</span>
+                            <span className="md:text-xl xl:text-base 2xl:text-xl text-base font-bold">영상 편집</span>
                         </div>
-                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left md:w-72 w-52">
+                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left xl:w-[14rem] md:w-72 w-52">
                         영상 전문가의 편집, 디자인, 후반 작업 단계 필요시 실사 촬영 병행하여 편집본 완성
                         </div>
                     </li>
-                    <li className="flex bg-[#141414] items-center 2xl:gap-16 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5">
+                    <li className="flex bg-[#141414] items-center justify-center 2xl:gap-8 xl:gap-6 lg:gap-10 md:gap-10 gap-6 md:w-full md:h-[103px] h-[89px] border border-white border-opacity-10 rounded-2xl md:rounded-full 2xl:px-20 lg:px-12 md:px-16 px-5">
                         <div className="flex flex-col items-start">
                             <span className="md:text-base text-xs bg-clip-text bg-gradient-to-r from-[#FF7E7E] to-[#F05F82] text-transparent">STEP5</span>
-                            <span className="md:text-xl text-lg font-bold">최종 납품</span>
+                            <span className="md:text-xl xl:text-base 2xl:text-xl text-base font-bold">최종 납품</span>
                         </div>
-                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left md:w-72 w-52">
+                        <div className="md:text-base text-sm text-[#AAAAAA] leading-6 text-left xl:w-[14rem] md:w-72 w-52">
                         고객 피드백 반영하여 최종본 완성 및 납품 * 영상 수정 무료 1회 제공
                         </div>
                     </li>
