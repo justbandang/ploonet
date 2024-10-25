@@ -25,7 +25,7 @@ const pretendardBold = localFont({
 
 export default function Home() {
   const smoothScroll = (event, targetId) => {
-    event.preventDefault(); // Cegah perilaku default agar tidak menambahkan '#' ke URL
+    event.preventDefault();
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
       window.scrollTo({
@@ -56,11 +56,11 @@ export default function Home() {
       <main className="md:pb-80">
         <div className="flex justify-center">
           <Image
-            src="/main_banner.png" // Ganti dengan path gambar Anda
+            src="/main_banner.png" 
             alt="Deskripsi Gambar"
             className="h-[361px] object-cover md:h-auto" 
-            width={1920} // Lebar gambar
-            height={934} // Tinggi gambar
+            width={1920}
+            height={934}
           />
         </div>
         <div className="px-8 py-12 lg:p-20 flex flex-col items-center justify-center relative after:content-[url(/br-btm-sm.svg)] md:after:content-[url(/br-btm.svg)] after:absolute after:bottom-0 after:translate-y-2/4">

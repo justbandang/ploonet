@@ -9,7 +9,6 @@ const Header = () => {
       setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // Handle sticky header on scroll
   useEffect(() => {
       const handleScroll = () => {
           if (window.scrollY > 50) {
@@ -32,11 +31,11 @@ const Header = () => {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-2xl">
                     <a href="#" className="flex items-center">
                         <Image
-                            src="/Isolation_Mode.svg" // Ganti dengan path gambar Anda
+                            src="/Isolation_Mode.svg"
                             alt="Deskripsi Gambar"
                             className='sm:w-28 md:w-28 lg:w-auto'  
-                            width={170} // Lebar gambar
-                            height={28} // Tinggi gambar
+                            width={170} 
+                            height={28} 
                         />
                     </a>
                     <div className="flex items-center md:order-2">

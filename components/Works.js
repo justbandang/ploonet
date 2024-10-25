@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 const Works = () => {
-  // Data gambar dan alt text
+  
   const imageData = [
     { 
         src: '/01.png', 
@@ -86,11 +86,11 @@ const Works = () => {
             <span className='text-base font-bold'>{image.description}</span>
         </div>
           <Image
-            src={image.src} // Path gambar diambil dari data
-            alt={image.alt} // Deskripsi gambar diambil dari data
+            src={image.src} 
+            alt={image.alt} 
             className="object-cover md:h-auto"
-            width={480} // Lebar gambar
-            height={270.13} // Tinggi gambar
+            width={480} 
+            height={270.13} 
           />
         </li>
       ))}
