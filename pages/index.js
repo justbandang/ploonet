@@ -35,7 +35,7 @@ export default function Home() {
     }
   };
   return (
-    <div className={`${pretendardRegular.variable} ${pretendardBold.variable} ${pretendardMedium.variable} min-h-screen font-[family-name:var(--font-pretendard-regular)]`}>
+    <div className={`${pretendardRegular.variable} ${pretendardBold.variable} ${pretendardMedium.variable} min-h-screen font-[family-name:var(--font-pretendard-regular)] bg-black`}>
       <a href="#" onClick={(e) => smoothScroll(e, 'contact')} className="hidden fixed w-[125px] h-[125px] md:flex flex-col items-center justify-center text-xl text-center gap-2 rounded-full bg-[url(/bg-images.png)] right-10 top-1/2 -translate-y-1/2 z-10">
         제작 <br/> 문의하기
         <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
